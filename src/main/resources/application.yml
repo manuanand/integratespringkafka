@@ -22,3 +22,7 @@ spring:
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
     template:
       default-topic: manu.kafka
+  server:
+  error:
+    whitelabel:
+      enabled: false
